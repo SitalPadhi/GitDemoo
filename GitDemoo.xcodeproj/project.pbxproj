@@ -13,6 +13,7 @@
 		D3DCEEEF27BCC19B00537CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DCEEED27BCC19B00537CF5 /* Main.storyboard */; };
 		D3DCEEF127BCC19C00537CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DCEEF027BCC19C00537CF5 /* Assets.xcassets */; };
 		D3DCEEF427BCC19C00537CF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DCEEF227BCC19C00537CF5 /* LaunchScreen.storyboard */; };
+		D3DCEEFC27BCC49E00537CF5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DCEEFB27BCC49E00537CF5 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3DCEEF027BCC19C00537CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3DCEEF327BCC19C00537CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3DCEEF527BCC19C00537CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DCEEFB27BCC49E00537CF5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D3DCEEF027BCC19C00537CF5 /* Assets.xcassets */,
 				D3DCEEF227BCC19C00537CF5 /* LaunchScreen.storyboard */,
 				D3DCEEF527BCC19C00537CF5 /* Info.plist */,
+				D3DCEEFB27BCC49E00537CF5 /* Utilities.swift */,
 			);
 			path = GitDemoo;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				D3DCEEEC27BCC19B00537CF5 /* ViewController.swift in Sources */,
 				D3DCEEE827BCC19B00537CF5 /* AppDelegate.swift in Sources */,
+				D3DCEEFC27BCC49E00537CF5 /* Utilities.swift in Sources */,
 				D3DCEEEA27BCC19B00537CF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,9 +296,11 @@
 				DEVELOPMENT_TEAM = T3HTNHN8C9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GitDemoo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GitDemoo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +326,11 @@
 				DEVELOPMENT_TEAM = T3HTNHN8C9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GitDemoo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GitDemoo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
